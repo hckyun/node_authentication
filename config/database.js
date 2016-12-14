@@ -1,7 +1,8 @@
 // database.js
 
 module.exports = {
-	url: 'mongodb://localhost/mywork'
+	//url: 'mongodb://localhost/mywork'
+	url: process.env.MONGODB_URI
 };
 
 // (in server.js)
